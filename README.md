@@ -1,4 +1,4 @@
-----------------------
+
 ## SOMMAIRE : 
 #### - [Start un projet React.](#start)
 #### - [Mise en place d'une navigation.](#nav)
