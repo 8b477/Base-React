@@ -10,7 +10,7 @@
 #### - [En cas de bug de dépendance à l'instalation de bibliothèque.](#debug)
 ----------------------- 
 
-# <a name= "start">Start un projet React !</a>
+# <a name= "start">Start un projet !</a>
 
 ### Check si node et npm sont installé
  - ``node -v``  
@@ -23,7 +23,8 @@ Si les deux sont installé, créer l'app React :
 
 --------------------------------- 
 
-<a name="nav">Pour utiliser le rooter taper cette commande : </a>
+# <a name="nav">Navigation.</a>
+Pour utiliser le rooter taper cette commande :
 - => ``npm i react-router-dom sass``
   
 
@@ -34,7 +35,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ---------------------------------- 
 
-<a name="axios">Pour utiliser axios : </a>
+
+# <a name="axios">Axios.</a>
+Pour utiliser axios :
 - => ``npm i axios``
 ```js
  import axios from 'axios';
@@ -43,23 +46,38 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 ---------------------------------- 
 
 
-<a name= "debug">En cas de bug avec la commande ci-dessus, quelques commande pour le debug:</a> 
+# <a name="debug">Debug.</a>
+En cas de bug avec la commande ci-dessus, quelques commande pour le debug:
 1. ``npm update``
 2. ``npm audit fix``
 3. ``npm start``
 
+
 ---------------------------------- 
 
-#<a name= "reprendre"> Reprendre un projet React. </a>
+
+# <a name="reprendre">Reprendre un projet React.</a> 
+
 1. ``npm i``
 
+
 ---------------------------------- 
 
-# Pour l'aide à la complétion.
-<a name= "completion">Ouvrire les settings de VsCode taper 'json' dans rechercher puis sélectionner 'Edit in settings.json' et ajouter les lignes de code encadrée.</a>
-![step one](src/plugin.png)
+
+# <a name= "completion">Pour l'aide à la complétion.</a>
+- Ouvrir les settings de VsCode.
+- Taper 'json' dans rechercher.
+- Sélectionner 'Edit in settings.json'.
+- Ajouter les lignes de code encadrée dans l'image suivante.  
+
+![step one](src/plugin.png)  
+
 
 ----------------------------------  
 
-## <a name= "extension"> Pour comprendre le code React plus facilement via la console (Extension).</a>
-- React Developer Tools.
+
+# <a name= "extension">Extensions.</a>
+## Pour voire les différents composants.
+- React Developer Tools => [chrome web store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+
