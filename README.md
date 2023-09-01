@@ -81,7 +81,7 @@ En cas de bug lors de l'instalation de bibliothèques, quelques commande pour le
 
 
 # <a name= "extension">Extensions.</a>
-## Pour voire les différents composants.
+## Pour voire les différents composants dans la console.
 - React Developer Tools => [chrome web store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 
