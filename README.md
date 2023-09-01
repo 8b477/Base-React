@@ -1,7 +1,8 @@
-# Template de base pour app React
+# Template de base React.
 
-#### - Mise en place d'une architecture claire
-#### - Mise en place d'une navigation
+#### - [Mise en place d'une architecture claire.](#mon-ancre)
+#### - Mise en place d'une navigation.
+#### - Utilisation d'une API avec 'axios'.
 ----------------------- 
 
 # Start un projet React !
@@ -12,33 +13,38 @@
 
 Si les deux sont installé, créer l'app React :
 - ``npx create-react-app nom-du-projet``
-- ``cd nom-du-projet`` (se placer sur le projet créer)
-- ``code .`` (permet de lancer l'app créé direct dans vsCode)
+- ``cd nom-du-projet`` (se placer sur le projet créer).
+- ``code .`` (permet de lancer l'app créé direct dans vsCode).
 
 
-Pour utiliser le rooter taper cette commande
-=> ``npm i react-router-dom sass``
-
-Pour utiliser axios
-=> ``npm i axios``
+Pour utiliser le rooter taper cette commande : 
+- => ``npm i react-router-dom sass``
 
 Puis importer dans votre fichier App.js :
-``import { BrowserRouter, Routes, Route } from "react-router-dom";``
+```js
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+```
+
+Pour utiliser axios : 
+- => ``npm i axios``
+```js
+ import axios from 'axios';
+```
 
 
-En cas de bug avec la commande ci-dessus, quelques commande pour le debug:
+<a name="mon-ancre">En cas de bug avec la commande ci-dessus, quelques commande pour le debug:</a>
 1. ``npm update``
 2. ``npm audit fix``
 3. ``npm start``
 
 ---------------------------
-# Reprendre un projet React
+# Reprendre un projet React.
 1. ``npm i``
 
 --------------------------
-# Pour l'aide à la complétion
+# Pour l'aide à la complétion.
 Ouvrire les settings de VsCode taper 'json' dans rechercher puis sélectionner 'Edit in settings.json' et ajouter les lignes de code encadrée.
 ![step one](src/plugin.png)
 
 ## Pour comprendre le code React plus facilement via la console (Extension).
-- React Developer Tools
+- React Developer Tools.
