@@ -34,6 +34,6 @@ En cas de bug avec la commande ci-dessus, quelques commande pour le debug:
 1. ``npm i``
 
 --------------------------
-# Pour l'aide à la complètion
-
-![step one](/plugin.png)
+# Pour l'aide à la complétion
+Ouvrire les settings de VsCode taper 'json' dans rechercher puis sélectionner 'Edit in settings.json' et ajouter les lignes de code encadrée.
+![step one](src/plugin.png)
