@@ -15,17 +15,22 @@
  - ``node -v``  
  - ``npm -v``
 
-Si les deux sont installés, créez l'application React :
-- ``npx create-react-app nom-du-projet``
-- ``cd nom-du-projet`` (se placer sur le projet créer).
-- ``code .`` (permet de lancer l'app créée directement dans vsCode).
+**Si les deux sont installés, créez l'application React (2 possibilités) :** </br>
+- (1) ``npx create-react-app nom-du-projet``</br></br>
+-----------------OU--------------------- </br></br>
+- (2) ``npm create vite@latest ./`` </br>
+*( ./ installe dans le dossier courrant ).*</br></br>
+- ``cd nom-du-projet`` </br>
+*( se placer sur le projet créé ).*</br></br>
+- ``code .`` </br>
+*( permet de lancer l'app créée directement dans vsCode ).*
 
 --------------------------------- 
 
 # <a name="nav">Navigation.</a>
 Pour utiliser le routeur tapez cette commande :
-- => ``npm i react-router-dom sass``
-  
+- => ``npm i react-router-dom sass``  
+  *(Remarque instalation de sass en + du routeur)*
 
 Puis importez dans votre fichier App.js :
 ```js
