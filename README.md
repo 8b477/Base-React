@@ -19,6 +19,8 @@ Si les deux sont installé, créer l'app React :
 Pour utiliser le rooter taper cette commande
 => ``npm i react-router-dom sass``
 
+Pour utiliser axios
+=> ``npm i axios``
 
 Puis importer dans votre fichier App.js :
 ``import { BrowserRouter, Routes, Route } from "react-router-dom";``
@@ -37,3 +39,6 @@ En cas de bug avec la commande ci-dessus, quelques commande pour le debug:
 # Pour l'aide à la complétion
 Ouvrire les settings de VsCode taper 'json' dans rechercher puis sélectionner 'Edit in settings.json' et ajouter les lignes de code encadrée.
 ![step one](src/plugin.png)
+
+## Pour comprendre le code React plus facilement via la console.
+- React Developer Tools (Extension)
