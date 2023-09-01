@@ -1,6 +1,5 @@
-# Template de base React.
-
 ----------------------
+## SOMMAIRE : 
 #### - [Start un projet React.](#start)
 #### - [Mise en place d'une navigation.](#nav)
 #### - [Utilisation d'une API avec 'axios'.](#axios)
