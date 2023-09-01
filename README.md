@@ -4,10 +4,10 @@
 #### - [Start un projet React.](#start)
 #### - [Mise en place d'une navigation.](#nav)
 #### - [Utilisation d'une API avec 'axios'.](#axios)
-#### - [Extension.](#extension)
-#### - [Aide à la complétion dans VsCode.](#completion)
-#### - [Reprendre un projet React.](#reprendre)
 #### - [En cas de bug de dépendance à l'instalation de bibliothèque.](#debug)
+#### - [Reprendre un projet React.](#reprendre)
+#### - [Aide à la complétion dans VsCode.](#completion)
+#### - [Extension.](#extension)
 ----------------------- 
 
 # <a name= "start">Start un projet !</a>
