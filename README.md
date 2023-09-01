@@ -1,18 +1,18 @@
-## Template de base pour app React
+# Template de base pour app React
 
-### Mise en place d'une architecture claire
-### Mise en place d'une navigation
+#### - Mise en place d'une architecture claire
+#### - Mise en place d'une navigation
 ----------------------- 
 
 # Start un projet React !
 
-### Check si nous avons installer node et npm
-(1). ``node -v``
-(2). ``npm -v``
+### Check si node et npm sont installé
+ - ``node -v``  
+ - ``npm -v``
 
 Si les deux sont installé, créer l'app React :
 - ``npx create-react-app nom-du-projet``
-- ``cd nom-du-projet``
+- ``cd nom-du-projet`` (se placer sur le projet créer)
 - ``code .`` (permet de lancer l'app créé direct dans vsCode)
 
 
@@ -20,7 +20,7 @@ Pour utiliser le rooter taper cette commande
 => ``npm i react-router-dom sass``
 
 
-Puis importer :
+Puis importer dans votre fichier App.js :
 ``import { BrowserRouter, Routes, Route } from "react-router-dom";``
 
 
