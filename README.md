@@ -10,9 +10,9 @@
 #### - [En cas de bug de dépendance à l'instalation de bibliothèque.](#debug)
 ----------------------- 
 
-# Start un projet React ! 
+# <a name= "start">Start un projet React !</a>
 
-###<a name= "start">Check si node et npm sont installé </a>
+### Check si node et npm sont installé
  - ``node -v``  
  - ``npm -v``
 
@@ -61,5 +61,5 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 ----------------------------------  
 
-##<a name= "extension"> Pour comprendre le code React plus facilement via la console (Extension).</a>
+## <a name= "extension"> Pour comprendre le code React plus facilement via la console (Extension).</a>
 - React Developer Tools.
