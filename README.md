@@ -65,9 +65,9 @@ Lancer le serveur :
 
 Plus de détails sur la commande : 
 
---w = watch
-src/assets/db.json = chemin ou se trouve le fichier qui simule la base de données.
---port 3004 = sur quelle port exécuter les requêtes, attention veuillez à choisir un port qui n'est pas déjà occupé !
+**--w** = *watch* </br>
+**src/assets/db.json** = *chemin ou se trouve le fichier qui simule la base de données.* </br>
+**--port 3004** = *sur quelle port exécuter les requêtes, attention veillez à choisir un port qui n'est pas déjà occupé !*
 
 # <a name="script">Script Json server.</a>
 
@@ -116,7 +116,12 @@ Autres extension pratique à installer depuis VsCode :
 
 - Simple React snippets
 - Reactjs code snippets
+- Javascript (ES6) code snippets
+- Auto Import
 - Mithril Emmet
+- Bracket Pair Colorization Toggler
+- Material Icon Theme
+- Live Server
 
 ----------------------------------  
 
