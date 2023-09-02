@@ -3,10 +3,12 @@
 #### - [Start un projet React.](#start)
 #### - [Mise en place d'une navigation.](#nav)
 #### - [Utilisation d'une API avec 'axios'.](#axios)
+#### - [Installation d'un server avec 'JSON SERVER'.](#server)
+#### - [Création d'un script pour 'JSON SERVER'.](#script)
 #### - [En cas de bug de lors de l'instalation de bibliothèques.](#debug)
 #### - [Reprendre un projet React.](#reprendre)
 #### - [Aide à la complétion dans VsCode.](#completion)
-#### - [Extension.](#extension)
+#### - [Extension navigateur.](#extension)
 ----------------------- 
 
 # <a name= "start">Start un projet !</a>
@@ -50,6 +52,39 @@ Pour utiliser axios :
 ---------------------------------- 
 
 
+
+# <a name="server">Json server.</a>
+
+Installer JSON-SERVER : 
+
+- ``npm i json-server``</br></br>
+
+Lancer le serveur : 
+
+- ``json-server --w src/assets/db.json --port 3004`` </br></br>
+
+Plus de détails sur la commande : 
+
+--w = watch
+src/assets/db.json = chemin ou se trouve le fichier qui simule la base de données.
+--port 3004 = sur quelle port exécuter les requêtes, attention veuillez à choisir un port qui n'est pas déjà occupé !
+
+# <a name="script">Script Json server.</a>
+
+- Ouvrir le fichier 'package.json' 
+- Ajout : ``"server": "json-server --w src/assets/db.json --port 3001"``
+
+![step one](src/create-script.png)  </br>
+
+Pour jouer le script dans la console taper : 
+
+``npm run server``
+
+
+---------------------------------
+
+
+
 # <a name="debug">Debug.</a>
 En cas de bug lors de l'instalation de bibliothèques, quelques commande pour le debug:
 1. ``npm update``
@@ -76,6 +111,12 @@ En cas de bug lors de l'instalation de bibliothèques, quelques commande pour le
 
 ![step one](src/plugin.png)  
 
+
+Autres extension pratique à installer depuis VsCode : 
+
+- Simple React snippets
+- Reactjs code snippets
+- Mithril Emmet
 
 ----------------------------------  
 
