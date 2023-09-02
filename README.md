@@ -74,7 +74,9 @@ Plus de détails sur la commande :
 - Ouvrir le fichier 'package.json' 
 - Ajout : ``"server": "json-server --w src/assets/db.json --port 3001"``
 
-![step one](src/create-script.png)  </br>
+Voire image ci dessous : 
+
+![create script](public/create-script.png)  </br>
 
 Pour jouer le script dans la console taper : 
 
@@ -109,7 +111,7 @@ En cas de bug lors de l'instalation de bibliothèques, quelques commande pour le
 - Sélectionnez 'Edit in settings.json'.
 - Ajoutez les lignes de code encadrées dans l'image suivante:   
 
-![step one](src/plugin.png)  
+![plugin picture](src/plugin.png)  
 
 
 Autres extension pratique à installer depuis VsCode : 
