@@ -59,9 +59,14 @@ Installer JSON-SERVER :
 
 - ``npm i json-server``</br></br>
 
-Lancer le serveur : 
 
-- ``json-server --w src/assets/db.json --port 3004`` </br></br>
+# <a name="script">Script Json server.</a>
+
+- Ouvrir le fichier 'package.json' 
+- Ajout du script ( voire image ci-dessous) : ``"server": "json-server --w src/assets/db.json --port 3001"``
+
+
+![create script](public/create-script.png)  </br>
 
 Plus de détails sur la commande : 
 
@@ -69,16 +74,7 @@ Plus de détails sur la commande :
 **src/assets/db.json** = *chemin ou se trouve le fichier qui simule la base de données.* </br>
 **--port 3004** = *sur quelle port exécuter les requêtes, attention veillez à choisir un port qui n'est pas déjà occupé !*
 
-# <a name="script">Script Json server.</a>
-
-- Ouvrir le fichier 'package.json' 
-- Ajout : ``"server": "json-server --w src/assets/db.json --port 3001"``
-
-Voire image ci dessous : 
-
-![create script](public/create-script.png)  </br>
-
-Pour jouer le script dans la console taper : 
+Pour lancer le serveur / jouer le script, dans la console taper : 
 
 ``npm run server``
 
