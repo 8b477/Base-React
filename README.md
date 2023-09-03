@@ -18,12 +18,11 @@
  - ``npm -v``
 
 **Si les deux sont installés, créez l'application React (2 possibilités) :** </br>
-- (1) ``npx create-react-app nom-du-projet``</br></br>
------------------OU--------------------- </br></br>
-- (2) ``npm create vite@latest ./`` </br>
-*( ./ installe dans le dossier courrant ).*</br></br>
+- ``npx create-react-app nom-du-projet``</br>
+-----------------OU--------------------- 
+- ``npm create vite@latest`` </br></br>
 - ``cd nom-du-projet`` </br>
-*( se placer sur le projet créé ).*</br></br>
+*( se placer sur le projet créé ).*</br>
 - ``code .`` </br>
 *( permet de lancer l'app créée directement dans vsCode ).*
 
