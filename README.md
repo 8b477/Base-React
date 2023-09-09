@@ -9,7 +9,7 @@
 #### - [Reprendre un projet React.](#reprendre)
 #### - [Aide à la complétion dans VsCode.](#completion)
 #### - [Extension navigateur.](#extension)
------------------------ 
+--------------------
 
 # <a name= "start">Start un projet !</a>
 
